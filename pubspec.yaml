@@ -1,0 +1,29 @@
+name: DynamicFormCreator
+description: A dynamic form creator form a given API.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  easy_localization: ^2.3.3
+  cupertino_icons: ^1.0.0
+  http: ^0.12.1
+  flutter_datetime_picker: ^1.5.0
+  toast: ^0.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data.json
+    - assets/values.json
+    - assets/translations/

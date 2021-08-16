@@ -1,0 +1,85 @@
+{
+    "fields": [
+      {
+        "id": 10,
+        "arLabel": "إدخال أرقام",
+        "enLabel": "input numbers",
+        "isDisable": false,
+        "isRequired": false,
+        "ctrlType": 1
+        ,"value" : "888"
+      },
+      {
+        "id": 12,
+        "arLabel": "إدخال نص",
+        "enLabel": "input text",
+        "isDisable": false,
+        "isRequired": true,
+        "ctrlType": 2
+        ,"value" : "رقم الطلب"
+
+      },
+      {
+        "id": 13,
+        "arLabel": "إدخال تاريخ",
+        "enLabel": "input date",
+        "isDisable": false,
+        "isRequired": true,
+        "ctrlType": 3
+        ,"value" : "18-01-2000"
+
+      },
+      {
+        "id": 15,
+        "arLabel": "اختيار من قائمة",
+        "enLabel": "input numbers",
+        "isDisable": false,
+        "isRequired": true,
+        "ctrlType": 4
+        ,"value" : "1",
+        "lstLookup": [
+            {
+                "id" : 0,
+                "arLabel": "العنصر الأول",
+                "enLabel": "first element",
+                "name" : "العنصر الأول",
+                "code" : 0
+            },
+            {
+                "id" : 1,
+                "arLabel": "العنصر الثاني",
+                "enLabel": "second element",
+                "name" : "العنصر الثاني",
+                "code" : 1
+
+            },
+            {
+                "id" : 2,
+                "arLabel": "العنصر الثالث",
+                "enLabel": "third element",
+                "name" : "العنصر الثالث",
+                "code" : 2
+
+            }
+        ]},
+        {
+            "id": 88,
+            "arLabel": "نص غير قابل للتعديل",
+            "enLabel": "read only text",
+            "value" : "رقم تسلسلي للنموذج",
+            "isDisable": false,
+            "isRequired": false,
+            "ctrlType": 5
+          },
+          {
+            "id": 5,
+            "arLabel": "إدخال نص متعدد الأسطر",
+            "enLabel": "input multi line text",
+            "isDisable": false,
+            "isRequired": false,
+            "ctrlType": 6,
+            "value" : "very long text \n very very long multiline"
+
+          }
+        
+    ]}

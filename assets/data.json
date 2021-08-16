@@ -1,0 +1,118 @@
+{
+    "fields": [
+      {
+        "id": 10,
+        "arLabel": "إدخال أرقام",
+        "enLabel": "input numbers",
+        "isDisable": false,
+        "isRequired": false,
+        "ctrlType": 1
+      },
+      {
+        "id": 12,
+        "arLabel": "إدخال نص",
+        "enLabel": "input text",
+        "isDisable": false,
+        "isRequired": true,
+        "ctrlType": 2
+      },
+      {
+        "id": 13,
+        "arLabel": "إدخال تاريخ",
+        "enLabel": "input date",
+        "isDisable": false,
+        "isRequired": true,
+        "ctrlType": 3
+      },
+      {
+        "id": 15,
+        "arLabel": "اختيار من قائمة",
+        "enLabel": "input numbers",
+        "isDisable": false,
+        "isRequired": true,
+        "ctrlType": 4,
+        "lstLookup": [
+            {
+                "id" : 0,
+                "arLabel": "العنصر الأول",
+                "enLabel": "first element",
+                "name" : "العنصر الأول",
+                "code" : 0
+            },
+            {
+                "id" : 1,
+                "arLabel": "العنصر الثاني",
+                "enLabel": "second element",
+                "name" : "العنصر الثاني",
+                "code" : 1
+
+            },
+            {
+                "id" : 2,
+                "arLabel": "العنصر الثالث",
+                "enLabel": "third element",
+                "name" : "العنصر الثالث",
+                "code" : 2
+
+            }
+        ]},
+        {
+            "id": 88,
+            "arLabel": "نص غير قابل للتعديل",
+            "enLabel": "read only text",
+            "value" : "رقم تسلسلي للنموذج",
+            "isDisable": false,
+            "isRequired": false,
+            "ctrlType": 5
+          },
+          {
+            "id": 5,
+            "arLabel": "إدخال نص متعدد الأسطر",
+            "enLabel": "input multi line text",
+            "isDisable": false,
+            "isRequired": false,
+            "ctrlType": 6
+          },
+          {
+            "id": 758,
+            "arLabel": "قائمة اختيار",
+            "enLabel": "radio list",
+            "isDisable": false,
+            "isRequired": false,
+            "ctrlType": 7 ,
+            "lstLookup": [
+                {
+                    "id" : 0,
+                    "arName": "الإختيار الأول",
+                    "enName": "first radio",
+                    "code" : 0
+
+                },
+                {
+                    "id" : 1,
+                    "arName": "الإختيار الثاني",
+                    "enName": "second radio",
+                    "code" : 1
+                }
+            ]},
+            {
+                "id": 178,
+                "arLabel": " قائمة اختيار متعدد",
+                "enLabel": "checkbox list",
+                "isDisable": false,
+                "isRequired": false,
+                "ctrlType": 8 ,
+                "lstLookup": [
+                    {
+                        "id" : 0,
+                        "enName": "first checkbox",
+                        "arName": "الإختيار الأول"
+                      },
+                    {
+                        "id" : 1,
+                        "enName": "second checkbox",
+                        "arName": "الإختيار الثاني"
+                   }
+                ]}
+        
+    ]}
